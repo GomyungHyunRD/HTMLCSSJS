@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>FieldSet</title>
+    </head>
+    <body>
+        <form>
+            <!-- 입력 필드 셋 지정-->
+            <fieldset>
+                <!-- 필드셋의 헤더 명 지정-->
+                <legend>입력양식</legend>
+                <table>
+                    <tr>
+                        <td><label for ="name">이름</label></td>
+                        <td><input type="text" id="name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for ="age">나이</label></td>
+                        <td><input type="text" id ="age"></td>
+                    </tr>
+                    <tr>
+                        <td><label for ="sex">성별</label></td>
+                        <td>
+                            <form>
+                                <input type="radio" name = "sex" value="남자" checked="checked"/>남자 
+                                <input type="radio" name = "sex" value="여자"/>여자 
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+                <input type="submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
